@@ -1,0 +1,3 @@
+- make some basics enemies
+- make to be able to control only one charater per time
+- make the lego change character thing

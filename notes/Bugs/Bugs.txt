@@ -1,0 +1,6 @@
+Hbasic:
+	- do the skill 2 dont get damage
+	- he have movimentation insues :0
+	
+Saw Bird 
+	- fix him

@@ -1,0 +1,11 @@
+{
+  "$GMNotes":"v1",
+  "%Name":"Note_Hbasic",
+  "name":"Note_Hbasic",
+  "parent":{
+    "name":"Hbasic",
+    "path":"folders/Objects/Hbasic.yy",
+  },
+  "resourceType":"GMNotes",
+  "resourceVersion":"2.0",
+}

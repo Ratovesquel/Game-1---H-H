@@ -1,0 +1,13 @@
+/// @desc ScreenShake(magnitude, frames)
+/// @arg Magnitude sets the strengh of the shake in pixels
+/// @arg Frames sets the lenght of the shake in frames
+
+function ScreenShake(){
+	with (obj_camera0){
+		if(argument0 > shake_remain){
+			shake_magnitude = argument0;
+			shake_remain = argument0;
+			shake_length = argument1;
+		}
+	}
+}

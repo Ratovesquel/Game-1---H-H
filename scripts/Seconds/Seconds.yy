@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Seconds",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Seconds",
+  "parent":{
+    "name":"Scripsts",
+    "path":"folders/Scripsts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

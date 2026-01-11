@@ -1,0 +1,3 @@
+state = ""
+
+speed = 1;
