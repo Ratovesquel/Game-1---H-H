@@ -10,7 +10,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"WallRat",
-    "path":"folders/Objects/Enemeis/WallRat.yy",
+    "path":"folders/Objects/Enemies/WallRat.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -14,7 +14,7 @@
   ],
   "parent":{
     "name":"SawBird",
-    "path":"folders/Objects/Enemeis/SawBird.yy",
+    "path":"folders/Objects/Enemies/SawBird.yy",
   },
   "parentObjectId":{
     "name":"obj_damage",

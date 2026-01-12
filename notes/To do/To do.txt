@@ -1,3 +1,18 @@
 - make some basics enemies
 - make to be able to control only one charater per time
 - make the lego change character thing
+- make death head ragdoll
+- make "necromancer"
+- fix the teams
+- let the player decide abilities position
+
+
+Later:
+- shader of light
+
+
+
+
+
+
+Complete:

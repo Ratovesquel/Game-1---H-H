@@ -2,6 +2,9 @@ Hp: 500
 speed: 4.2
 jump: 8.25
 
+Class: Defalt
+Classification: Defalt
+
 basic attack: 
 	- cooldown: 5 shots per second, 12 frames
 	- damage: 8

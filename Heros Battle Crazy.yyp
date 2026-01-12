@@ -12,9 +12,9 @@
   "Folders":[
     {"$GMFolder":"","%Name":"Notes","folderPath":"folders/Notes.yy","name":"Notes","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Enemeis","folderPath":"folders/Objects/Enemeis.yy","name":"Enemeis","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"SawBird","folderPath":"folders/Objects/Enemeis/SawBird.yy","name":"SawBird","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"WallRat","folderPath":"folders/Objects/Enemeis/WallRat.yy","name":"WallRat","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Enemies","folderPath":"folders/Objects/Enemies.yy","name":"Enemies","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"SawBird","folderPath":"folders/Objects/Enemies/SawBird.yy","name":"SawBird","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"WallRat","folderPath":"folders/Objects/Enemies/WallRat.yy","name":"WallRat","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Hbasic","folderPath":"folders/Objects/Hbasic.yy","name":"Hbasic","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Others","folderPath":"folders/Objects/Others.yy","name":"Others","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -41,6 +41,7 @@
   "resources":[
     {"id":{"name":"Bugs","path":"notes/Bugs/Bugs.yy",},},
     {"id":{"name":"Note_Hbasic","path":"notes/Note_Hbasic/Note_Hbasic.yy",},},
+    {"id":{"name":"Notes","path":"notes/Notes/Notes.yy",},},
     {"id":{"name":"To do","path":"notes/To do/To do.yy",},},
     {"id":{"name":"obj_camera0","path":"objects/obj_camera0/obj_camera0.yy",},},
     {"id":{"name":"obj_damage","path":"objects/obj_damage/obj_damage.yy",},},

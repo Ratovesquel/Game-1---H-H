@@ -10,7 +10,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"SawBird",
-    "path":"folders/Objects/Enemeis/SawBird.yy",
+    "path":"folders/Objects/Enemies/SawBird.yy",
   },
   "parentObjectId":null,
   "persistent":false,

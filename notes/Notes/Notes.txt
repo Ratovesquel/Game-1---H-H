@@ -1,0 +1,122 @@
+	Hero model:
+
+ 1 - class and classification
+ 2 - basic attack
+ 3 - ability 1
+ 4 - ability 2
+
+
+
+	Classes:
+ - Warrior:    Can jump on walls
+ - Mage:       Skills get less cooldonw on pos time
+ - Engineer:   Big knocback || stronger near to a machine? 
+ - Prayer:     Heal life per second
+
+counting: W: 2; M: 2; E: 2; P: 2;
+
+
+	Classification:
+ - Fighter:    H
+ - Shooter:    H dont know man, too much to think about
+ - Tank:       They gain % of maximum life 
+ - Curser:     There is % chance that curse is plus 2
+ - Suport:     H
+ (Only get the bonus if there is three of them in the team)
+
+counting: Fi: 1; Sh: 1; Ta: 2; Cu: 2; Su: 2;
+
+
+	Heros:
+	
+	- Shordsboy (Espadonilson)
+ Class: Warrior
+ Classification: Fighter
+ Basic attack: Slice in front of him
+ A1: Dash in mouse diretion while deal damage on a circle
+ A2: Roll and dont take damage when on roll
+ 
+ 
+ 	- Archer (Flecheiro)
+ Class: Warrior
+ Classification: Shooter
+ Basic attack: shoot arrow to mouse direction. Arrow affected bay gravity and need ti charge to shoot far away
+ A1: shoot a strong arrow that make archer go back
+ A2: shoot a arrow with a chain, if colide with a wall, archer is pulled to the wall. If its a mob, both are pushed to each other
+ 
+ 
+	- Dawalsk (Não faço ideia de onde tirei esse nome)
+ Class: Mage
+ Classification: Tank
+ Basic attack: Fire ice spiers
+ A1: Creat a shild based on maximum life
+ A2: Activate and deactivate a zone (circle) that slow all enemies and projectiles
+ 
+ 
+	- Curse Dude (Pragoeiro)
+ Class: Mage
+ Classification: Curser
+ Basic attack: Activate curse on a ramdom enemy
+ A1: Change places with a ally (the one which mouse is closer)
+ A2: Slower the nearest enemy
+ 
+  
+	- Curser mech (Maldiólogo)
+ Class: Engineer 
+ Classification: Curser
+ Basic attack: Trow a punch that have big knokback
+ A1: Trow a flask that stun a enemy
+ A2: Create a machine that activate curse in all enemies, time by time. If the machine already exist, it can fix the machine, if get damage.
+ 
+
+	- Mecanic healer (Curólogo)
+ Class: Engineer 
+ Classification: Suport
+ Basic attack: Trow some punches. If Holdind the machine, trow it
+ A1: Hold the machine above his head, if it already in his head, just put on the ground
+ A2: Create a machine that heal life per seconds in a area (circle). If the machine already exist, it can fix the machine, if get damage.
+ 
+ 
+	- Sumo monk (Tanko)
+ Class: Prayer
+ Classification: Tank
+ Basic attack: Trow some some slaps that make him get really close to the enemy
+ A1: Slap the ground making a wave that make every enemy nearby get closer, second activetion make it get futher away
+ A2: Stop and pray, healing (if move, stop praying)
+ 
+ 
+	- Priest (Padrin)
+ Class: Prayer
+ Classification: Suport
+ Basic attack: Creat a light ball that follow nearby enemies. It gain speed with time. It is destroyed before some time
+ A1: Creat the same ball, but green and it follow allies and heal them
+ A2: Creat a life shild on a allie (the on more close to mouse)
+
+
+ 
+ 
+ 
+ - Shordsman 
+ Class:
+ Classification:
+ Basic attack:
+ A1:
+ A2:
+ 
+ 
+  - Shordsman (Espadareiro)
+ Class: Prayer
+ Classification: Warrior
+ Basic attack:
+ A1:
+ A2:
+ 
+ 
+ tank ideia: Hold someone
+ 
+ 	- Archer dunno, want to make something with pakua  :/
+ Class: Prayer
+ Classification: Shooter
+ Basic attack:
+ A1: Change instance, sky, human, earth.That change the Basic attack and A2
+ A2:
