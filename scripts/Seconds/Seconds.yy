@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"Seconds",
   "parent":{
-    "name":"Scripsts",
-    "path":"folders/Scripsts.yy",
+    "name":"General",
+    "path":"folders/Scripsts/General.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

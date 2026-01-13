@@ -1,3 +1,15 @@
+======    Notes    ================================
+
+	Curse: Damage that ignore canDamage method that when activate deal curse+1 damage.
+		  only affect the puppets.
+	
+	
+	
+	
+	
+	
+	
+	
 	Hero model:
 
  1 - class and classification

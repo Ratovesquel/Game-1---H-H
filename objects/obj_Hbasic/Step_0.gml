@@ -109,29 +109,24 @@ y = y + vsp;
 //if (hsp != 0) image_xscale = sign(hsp);
 //var position_mouse_player = mouse_x - x;
 
-// 
+//  XSCALE
 if(abs(mouse_x - x) < 15){
 	if (hsp != 0) image_xscale = sign(hsp);
 } 
 else image_xscale = sign(mouse_x - x);
 
-// On skill 1 -----------
+//DEATH
+//if(hp <= 0){
+//	image_speed = 1;
+//	sprite_index = spr_Hbasic_corpse;
+//	hasControl = false;
+//	if(image_index >= 6) image_index = 6;
+//	playerState = State.DEAD;
+//}
+
+// On skill 2 -----------
 if(verifier_skl2){
-	image_speed = 1
-	if(hsp != 0){
-		hsp = 4.5 * sign(hsp);
-		image_xscale = sign(hsp);
-	}
-	else{
-		hsp = 4.5 * sign(image_xscale);
-	}
-	
-	sprite_index = spr_Hbasic_rolling;
-	
-	if(image_index >= 9.6){
-		verifier_skl2 = false;
-		canDamage = true;
-	}
+	playerState = State.ROLL
 }
 
 // On air -----------
@@ -197,8 +192,8 @@ else{
 var key_space = keyboard_check_released(vk_space);
 var testButton = keyboard_check_released(ord("F"));
 if(testButton){
-	hp -= fadigueCount
-	fadigueCount++;
+	DealDamage(id, 50);
+	//ActivateCurse(id);
 }
 
 cooldown_skl1--;
@@ -223,6 +218,54 @@ if(key_mouseR && cooldown_skl2 <= 0){
 }
 
 
+#endregion
+
+#region TEST
+var attackTest = keyboard_check_released(ord("T"));
+
+#endregion
+
+#region SM
+switch (playerState){
+	case State.AIR:
+		break;
+		
+	case State.DEAD:
+		break;
+		
+	case State.IDLE:
+		break;
+		
+		
+	case State.ROLL:
+		image_speed = 1
+		if(hsp != 0){
+			hsp = 4.5 * sign(hsp);
+			image_xscale = sign(hsp);
+		}
+		else{
+			hsp = 4.5 * sign(image_xscale);
+		}
+	
+		sprite_index = spr_Hbasic_rolling;
+	
+		if(image_index >= 9.6){
+			verifier_skl2 = false;
+			canDamage = true;
+			playerState = State.IDLE;
+		}
+		break;
+		
+		
+	case State.RUN:
+		break;
+		
+	case State.SQUAT:
+		break;
+		
+	case State.SQUATWALK:
+		break;
+}
 #endregion
 
 //if (sprite_index == spr_HbasicRunning){

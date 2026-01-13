@@ -63,7 +63,38 @@ if(device_mouse_y_to_gui(0) < display_get_gui_height()/3) image_index = 4 + sprM
 else if(device_mouse_y_to_gui(0) > display_get_gui_height()/3*2) image_index = 2 + sprMod;
 else image_index = 0 + sprMod;
 
+
+
 #endregion
 
 }
-else instance_destroy();
+else{
+	image_index = 0;
+	
+	
+	#region COLISION
+// Horizontal colision
+if (place_meeting(x+hsp, y, obj_wall)){
+	while(!place_meeting(x+sign(hsp), y, obj_wall)){
+		x = x + sign(hsp);
+	}
+	hsp = 0;
+}
+
+x = x + hsp;
+
+
+// Vertical colision
+if (place_meeting(x, y+vsp, obj_wall)){
+	while(!place_meeting(x, y+sign(vsp), obj_wall)){
+		y = y + sign(vsp);
+	}
+	vsp = 0;
+}
+
+y = y + vsp;
+#endregion
+
+vsp = vsp + gvt;
+
+}

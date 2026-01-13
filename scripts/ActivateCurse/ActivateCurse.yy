@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"ScreenShake",
+  "%Name":"ActivateCurse",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"ScreenShake",
+  "name":"ActivateCurse",
   "parent":{
     "name":"General",
     "path":"folders/Scripsts/General.yy",

@@ -199,6 +199,7 @@
     {"name":"inst_2A0E1FEB","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_22A564D0","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_6B26335B","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_7CC40D07","path":"rooms/Room1/Room1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -217,6 +218,7 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_damage","path":"objects/obj_damage/obj_damage.yy",},"propertyId":{"name":"team","path":"objects/obj_damage/obj_damage.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1743.0,"y":32.0,},
         {"$GMRInstance":"v4","%Name":"inst_6B26335B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6B26335B","objectId":{"name":"obj_dummy","path":"objects/obj_dummy/obj_dummy.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1996.0,"y":302.0,},
+        {"$GMRInstance":"v4","%Name":"inst_7CC40D07","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7CC40D07","objectId":{"name":"obj_HbasicHead","path":"objects/obj_HbasicHead/obj_HbasicHead.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1920.0,"y":544.0,},
       ],"layers":[],"name":"Characters","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Helpers","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_56EA3CF6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_56EA3CF6","objectId":{"name":"obj_camera0","path":"objects/obj_camera0/obj_camera0.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":5.0,"scaleY":5.0,"x":160.0,"y":-96.0,},

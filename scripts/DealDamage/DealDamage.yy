@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"ScreenShake",
+  "%Name":"DealDamage",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"ScreenShake",
+  "name":"DealDamage",
   "parent":{
     "name":"General",
     "path":"folders/Scripsts/General.yy",

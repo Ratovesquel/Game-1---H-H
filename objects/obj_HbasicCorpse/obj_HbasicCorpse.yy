@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_HbasicHead",
+  "%Name":"obj_HbasicCorpse",
   "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_HbasicHead",
+  "name":"obj_HbasicCorpse",
   "overriddenProperties":[],
   "parent":{
     "name":"Hbasic",
@@ -27,19 +27,16 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v2","%Name":"follow","filters":[],"listItems":[],"multiselect":false,"name":"follow","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"-1","varType":0,},
-    {"$GMObjectProperty":"v2","%Name":"yposMod","filters":[],"listItems":[],"multiselect":false,"name":"yposMod","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
-    {"$GMObjectProperty":"v2","%Name":"sprMod","filters":[],"listItems":[],"multiselect":false,"name":"sprMod","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"hsp","filters":[],"listItems":[],"multiselect":false,"name":"hsp","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"vsp","filters":[],"listItems":[],"multiselect":false,"name":"vsp","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
-    {"$GMObjectProperty":"v2","%Name":"gvt","filters":[],"listItems":[],"multiselect":false,"name":"gvt","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.15","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"gvt","filters":[],"listItems":[],"multiselect":false,"name":"gvt","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.05","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_Hbasic_head",
-    "path":"sprites/spr_Hbasic_head/spr_Hbasic_head.yy",
+    "name":"spr_Hbasic_corpse",
+    "path":"sprites/spr_Hbasic_corpse/spr_Hbasic_corpse.yy",
   },
   "spriteMaskId":null,
   "visible":true,

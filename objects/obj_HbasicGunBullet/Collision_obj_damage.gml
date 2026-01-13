@@ -1,4 +1,5 @@
 if(bulletTeam != other.team){
+	
 	if(other.canDamage){
 		other.flash = 4;
 		other.hp -= 8;
