@@ -9,8 +9,8 @@
   "name":"obj_HbasicCorpse",
   "overriddenProperties":[],
   "parent":{
-    "name":"Hbasic",
-    "path":"folders/Objects/Hbasic.yy",
+    "name":"1Hbasic",
+    "path":"folders/Objects/1Hbasic.yy",
   },
   "parentObjectId":null,
   "persistent":false,

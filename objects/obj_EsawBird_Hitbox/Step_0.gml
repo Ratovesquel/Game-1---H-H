@@ -1,3 +1,6 @@
-life--;
-
-if(life <= 0) instance_destroy();
+if(instance_exists(follow)){
+	x = follow.x;
+	y = follow.y;
+}
+else instance_destroy();
+	

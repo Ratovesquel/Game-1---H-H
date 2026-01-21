@@ -4,12 +4,13 @@
 /// @param {real} damage How much damage it'll take
 /// //@returns {type} Description of the returned value (if any)
 
-function DealDamage(target, damage){
+function DealDamage(target, damage, flash){
 	
 	if(!instance_exists(target)) return;
 	
 	if(target.canDamage){
 		target.hp -= damage;
+		target.flash = flash;
 	}
 		
 }

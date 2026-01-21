@@ -8,10 +8,12 @@
   ],
   "managed":true,
   "name":"obj_Hbasic",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_damage","path":"objects/obj_damage/obj_damage.yy",},"propertyId":{"name":"team","path":"objects/obj_damage/obj_damage.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"team1\"",},
+  ],
   "parent":{
-    "name":"Hbasic",
-    "path":"folders/Objects/Hbasic.yy",
+    "name":"1Hbasic",
+    "path":"folders/Objects/1Hbasic.yy",
   },
   "parentObjectId":{
     "name":"obj_damage",
@@ -48,6 +50,8 @@
     {"$GMObjectProperty":"v2","%Name":"key_left","filters":[],"listItems":[],"multiselect":false,"name":"key_left","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.0","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"key_right","filters":[],"listItems":[],"multiselect":false,"name":"key_right","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"key_up","filters":[],"listItems":[],"multiselect":false,"name":"key_up","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"key_space","filters":[],"listItems":[],"multiselect":false,"name":"key_space","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"key_mouseR","filters":[],"listItems":[],"multiselect":false,"name":"key_mouseR","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"hp_max","filters":[],"listItems":[],"multiselect":false,"name":"hp_max","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"500","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"hp","filters":[],"listItems":[],"multiselect":false,"name":"hp","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"hp_max","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"cooldown_skl1MAX","filters":[],"listItems":[],"multiselect":false,"name":"cooldown_skl1MAX","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"Seconds(3,5)","varType":0,},

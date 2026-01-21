@@ -9,8 +9,8 @@
   "name":"obj_HbasicHead",
   "overriddenProperties":[],
   "parent":{
-    "name":"Hbasic",
-    "path":"folders/Objects/Hbasic.yy",
+    "name":"1Hbasic",
+    "path":"folders/Objects/1Hbasic.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -27,7 +27,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v2","%Name":"follow","filters":[],"listItems":[],"multiselect":false,"name":"follow","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"-1","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"follow","filters":[],"listItems":[],"multiselect":false,"name":"follow","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"yposMod","filters":[],"listItems":[],"multiselect":false,"name":"yposMod","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"sprMod","filters":[],"listItems":[],"multiselect":false,"name":"sprMod","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"hsp","filters":[],"listItems":[],"multiselect":false,"name":"hsp","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},

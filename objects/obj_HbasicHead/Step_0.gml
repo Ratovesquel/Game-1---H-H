@@ -72,7 +72,7 @@ else{
 	image_index = 0;
 	
 	
-	#region COLISION
+#region COLISION
 // Horizontal colision
 if (place_meeting(x+hsp, y, obj_wall)){
 	while(!place_meeting(x+sign(hsp), y, obj_wall)){
@@ -95,6 +95,7 @@ if (place_meeting(x, y+vsp, obj_wall)){
 y = y + vsp;
 #endregion
 
+// Gravity
 vsp = vsp + gvt;
 
 }

@@ -3,8 +3,8 @@
   "%Name":"Note_Hbasic",
   "name":"Note_Hbasic",
   "parent":{
-    "name":"Hbasic",
-    "path":"folders/Objects/Hbasic.yy",
+    "name":"1Hbasic",
+    "path":"folders/Objects/1Hbasic.yy",
   },
   "resourceType":"GMNotes",
   "resourceVersion":"2.0",

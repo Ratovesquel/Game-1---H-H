@@ -1,10 +1,6 @@
 if(bulletTeam != other.team){
 	
-	if(other.canDamage){
-		other.flash = 4;
-		other.hp -= 8;
-		instance_destroy();
-	}
-	else instance_destroy();
+	DealDamage(other, 10, 4);
+	instance_destroy();
 	
 }

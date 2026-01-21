@@ -6,7 +6,6 @@
   "name":"obj_dummy",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_damage","path":"objects/obj_damage/obj_damage.yy",},"propertyId":{"name":"hp","path":"objects/obj_damage/obj_damage.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"100",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_damage","path":"objects/obj_damage/obj_damage.yy",},"propertyId":{"name":"team","path":"objects/obj_damage/obj_damage.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"10",},
   ],
   "parent":{
     "name":"Others",

@@ -1,22 +1,26 @@
  
 switch(state){
 	
+//criar um actualRange, em que cada frame, vai olhar todos do team1, escolher o que 
+// estiver mais próximo e dentro do critério depois fazer o mesmo mas usando o actualRange
+// como range, se atualizar o target, no final só restartar o actualRange e rlx
+	
 	#region IDLE
 	case "idle":
 	    sprite_index = spr_EsawBird_idle;
     
-	    target = instance_nearest(x, y, obj_damage);
+	    target = obj_Hbasic
 
-	    if(target != noone && target.id != id){
-	        if (target.team != team){
+	    
+	       
 	            if (point_distance(x, y, target.x, target.y) < range) {
 	                if (!collision_line(x, y, target.x, target.y, obj_wall, false, true)) {            
 	                    attack_dir = point_direction(x, y, target.x, target.y);
 	                    state = "prepare";
 	                }
 	            }
-	        }
-	    }
+	        
+	    
 		break;
 
 	#endregion
@@ -62,17 +66,24 @@ switch(state){
 			attack_time = Seconds(5);
 			state = "idle"
 		}
-		if (!attack_spawned) {
-		    with (instance_create_layer(x, y, "Bullets", obj_EsawBird_Hitbox)) {
-		        team = other.team;
-		        damage = 40;
-			}
-		attack_spawned = true;
-		}
-		attack_spawned = false;
 		
 		break;
 	#endregion
 }
+
+
+#region HITBOX
+if (!hitbox_spawned && hitbox_timer <=0){
+	with(instance_create_layer(x, y, "Bullets", obj_EsawBird_Hitbox)){
+		team = other.team;
+	}
+	attack_spawned = true;
+	hitbox_timer = hitbox_timer_max;
+}
+else if(attack_spawned == false) hitbox_timer--;
+#endregion
+
+
+
 
 

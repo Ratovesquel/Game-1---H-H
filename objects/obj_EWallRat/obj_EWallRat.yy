@@ -7,12 +7,17 @@
   ],
   "managed":true,
   "name":"obj_EWallRat",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_damage","path":"objects/obj_damage/obj_damage.yy",},"propertyId":{"name":"team","path":"objects/obj_damage/obj_damage.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"monster\"",},
+  ],
   "parent":{
     "name":"WallRat",
     "path":"folders/Objects/Enemies/WallRat.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_damage",
+    "path":"objects/obj_damage/obj_damage.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
